@@ -4,7 +4,7 @@ from decimal import *
 import datetime
 import math
 
-binance = Client('wbqYULmLVD4LisNljzY2mW9gtamtTjXzGe9YCN4VicV4OUJvI9GCLe6agNEtpIgI', '2omMiHOFUF05nJEqKpBR6BHkQIOhEi43ba4wQWRcqX93DNALuRdBrKSwbv3ptNk7')
+binance = Client('apiKey', 'apiSecret')
 connection = sqlite3.connect("botOrders.db")
 cursor = connection.cursor()
 
